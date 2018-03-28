@@ -283,6 +283,9 @@ html, body {
 .side_answer_elem .default_btn {
   text-transform: uppercase; }
 
+.image_side_answer {
+  text-align: center; }
+
 .answer_capt {
   font-size: 2rem; }
 
