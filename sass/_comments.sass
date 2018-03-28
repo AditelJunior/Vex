@@ -1,0 +1,39 @@
+.review_container
+	padding: 50px 0
+	text-align: center
+.comments_block
+	display: flex
+	justify-content: space-between
+	padding: 30px 0
+.comments_item
+	width: 30%
+	font-style: italic
+	display: inline-block
+.comment_quote
+	color: $accent-color1
+	font-size: 2rem
+.avatar
+	width: 40px
+	border-radius: 50%
+.name,
+.ocupation
+	display: block
+.name
+	font-family: 'JosefinSans-Bold'
+.ocupation
+	font-size: 0.8rem
+	font-style: normal
+@media screen and(max-width: 768px)
+	.comments_block
+		display: block
+		text-align: center
+		padding-bottom: 0px
+	.comments_item
+		width: 80%
+		margin-bottom: 50px
+@media screen and(max-width: 500px)
+	.comments_block
+		padding: 0
+	.comments_item
+		width: 100%
+		font-size: 0.8rem

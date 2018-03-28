@@ -1,0 +1,55 @@
+.cont_reclame
+	display: flex
+	justify-content: space-between
+	padding: 50px 0
+	overflow: hidden
+	.owl-item
+		display: inline-block
+		text-align: center
+.watch_overlay
+	display: none
+	width: 0%
+	height: 0%
+	.fa
+		display: none
+.reclame_item
+	position: relative
+.img_reclame
+	max-width: 170px
+	max-height: 200px
+.reclame_item:hover
+	.watch_overlay
+		display: block
+		z-index: 4
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		background: rgba(255,255,255, 0.8)
+		height: 100%
+		text-align: center
+		line-height: 200px
+		transition: 0.5s linear
+	.fa
+		background: $accent-color1
+		border-radius: 50%
+		font-size: 1.5rem
+		display: inline-block
+		padding: 20px
+		color: #FFF
+		// &:hover
+		// 	transition: 0.5s linear rgba(0,0,0, 0.8)
+
+
+@media screen and(max-width: 700px)
+	.img_reclame
+		max-width: 100px
+		max-height: 130px
+	.cont_reclame
+		padding-top: 0
+	.reclame_item:hover
+		.watch_overlay
+			line-height: 130px
+		.fa
+			font-size: 1rem
+			padding: 10px

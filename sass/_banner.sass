@@ -1,0 +1,82 @@
+.header
+	background: #FFFFFF
+.top_line
+	padding-top: 20px
+.nav_container
+	display: flex
+	justify-content: space-between
+.logo
+	font-size: 1.5rem
+	font-family: 'JosefinSans-Light'
+.nav_item
+	display: inline-block
+.nav_link
+	padding: 20px 15px
+	font-size: 1rem
+	font-family: 'JosefinSans-Bold'
+	text-transform: uppercase
+	color: $accent-color2
+.three_line
+	display: none
+.banner_container
+	display: flex
+.banner_elements
+	width: 50%
+.ban_left_side
+	text-align: center
+.caption_banner
+	font-size: 3.5rem
+.banner_text
+	font-size: 1.2rem
+	line-height: 1.5rem
+	box-sizing: border-box
+.banner_btn
+	margin-top: 20px
+@media screen and(max-width: 768px)
+	.banner_container
+		display: block
+		padding-top: 50px
+	.banner_elements
+		width: 70%
+	.ban_left_side
+		display: none
+	.caption_banner
+		font-size: 2rem
+		margin: 0
+	.banner_text
+		margin: 0
+		font-size: 1rem
+		line-height: 1.2rem
+@media screen and(max-width: 700px)
+	.top_nav
+		padding: 10px
+		margin: 0
+		position: fixed
+		right: 0px
+		top: 0px
+		text-align: center
+		background: rgba(0,0,0, 0.5)
+		z-index: 10
+		.nav_item
+			display: none
+			list-style-type: none
+		.nav_link
+			color: #FFF
+			display: block
+			padding: 10px 15px
+			box-sizing: border-box
+	.three_line
+		display: block
+		width: 128.59px
+	.three_line_icon
+		font-size: 2rem
+@media screen and(max-width: 500px)
+	.top_nav
+		width: 100%
+		padding: 0
+	.three_line
+		display: inline-block
+	.banner_elements
+		width: 100%
+	.caption_banner
+		font-size: 1.5rem
